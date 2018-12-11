@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="20sp"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:onClick="view1"
+        android:textAllCaps="false"
+        android:text="PageViewer 1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="20sp"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+        android:onClick="view2"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:text="PageViewer 2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="20sp"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:onClick="view3"
+        android:textAllCaps="false"
+        android:text="PageViewer 3"/>
+
+</LinearLayout>
